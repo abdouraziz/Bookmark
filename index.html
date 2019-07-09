@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="">
+            <input type="text" name="search" id="search" placeholder="Searck a link">
+        </header>
+        <div class="form_"> 
+            <h1>Bookmark</h1>
+            <form id="getForm">
+                <div class="form-group">
+                <label>Name of site</label>
+                <input type="text" id="name">
+                </div>
+                <div class="form-group">
+                <label>Url site</label>
+                <input type="text" id="url">
+                </div>
+                <input type="submit" class="btn" value="send">
+            </form>
+        </div>
+        <div class="displayBookmark">
+            <ul id="list-bookmark">
+
+            </ul>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
