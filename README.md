@@ -1,0 +1,3 @@
+# Application de marque page
+
+Essentiellement développée en Javascript cette application permet d'enregistrement et de mettre en memoire une Adresse web. Développer en ECMAScript 6(ES6) surtout avec l'utilisation de la programmation orientée object(POO) facilitant ainsi une bonne organisation du code. Elle utilise aussi l'interface Storage de l'API Web storage(window.localStorage) pour ajouter, modifier ou supprimer des éléments enregistrés dans le navigateur.
